@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+  height: 200px;
+  background-color: beige;
+  border-radius: 8px;
+  margin: 0 30px 30px;
+  padding: 20px;
+  color: black;
+  text-align: left;
+
+  .title {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 30px;
+  }
+
+  .closeIcon {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    cursor: pointer;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 10px;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}

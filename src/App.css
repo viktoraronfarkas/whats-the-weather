@@ -12,3 +12,46 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.CitiesContainer {
+  display: inline-block;
+  max-width: 80%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin: 0 0 30px;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align: center;
+  position: relative;
+}
+
+button:active {
+  top:0.1em;
+}
