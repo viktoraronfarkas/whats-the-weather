@@ -3,14 +3,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(0, 128, 128);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fafafa;
 }
 
 .CitiesContainer {
@@ -32,10 +32,12 @@ input {
   width: 250px;
   height: 35px;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #fafafa;
   border-radius: 8px;
   margin-bottom: 10px;
   padding: 0 15px;
+  color: #fafafa;
+  font-size: 1rem;
 }
 
 button {
@@ -45,11 +47,13 @@ button {
   border-radius: 4px;
   box-sizing: border-box;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fafafa;
   background-color: transparent;
   box-shadow: inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
   text-align: center;
   position: relative;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 button:active {
